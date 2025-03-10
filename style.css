@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/mario-bg.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-board {
+    margin-right: 60px;
+    /* margin-bottom: 20px; */
+    border-radius: 10px;
+    border: solid white 2px;
+    background-image: url(images/soil.png);
+    z-index: 2;
+    /* width: 530px;
+    height: 500px; */
+    width: 540px;
+    height: 540px;
+    /* margin: 0 auto; */
+    background-size: cover;
+}
+
+h1,
+h2 {
+    margin-right: 60px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#game-board>img {
+    height:180px;
+    width: 180px;
+}
+
+#game-board div {
+    height: 180px;
+    width: 180px;
+    background-image: url(images/pipe.png);
+    background-size: cover;
+  
+}
+
+#game-board div img{
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+   
+}
+
